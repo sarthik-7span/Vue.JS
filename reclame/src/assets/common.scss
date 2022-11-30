@@ -1,0 +1,12 @@
+.container{
+    @apply max-w-[1440px] px-4 mx-auto
+}
+.container-fluid {
+    @apply max-w-[100%] px-4
+}
+.action-btn{
+    @apply text-xl bg-green-color px-8 py-4 font-semibold text-white inline-block
+}
+.text-green {
+    @apply text-green-color
+}
