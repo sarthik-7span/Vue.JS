@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TheIndex gm="Good Morning"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TheIndex from './components/TheIndex.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TheIndex
   }
 }
 </script>
