@@ -37,28 +37,28 @@
                 <div class="testimonial__right lg:max-w-[50%] 2xl:absolute 2xl:right-0 2xl:top-[7%]">
                     <div class="testimonal-slider">
                         <div class="relative testimonal-slider__block">
-                            <img src="../images/men1.jpg" alt="" class="w-full">
+                            <img src="@/images/men1.jpg" alt="" class="w-full">
                             <div class="bg-green-color p-4 xl:p-6 2xl:p-8 absolute bottom-0 left-0 right-0">
                                 <h5 class="text-base font-semibold mb-2 2xl:text-2xl">Falco van Opstal</h5>
                                 <p class="text-base leading-3 2xl:text-2xl">Eigenaar</p>
                             </div>
                         </div>
                         <div class="relative testimonal-slider__block" >
-                            <img src="../images/men2.jpg" alt="" class="w-full">
+                            <img src="@/images/men2.jpg" alt="" class="w-full">
                             <div class="bg-green-color p-4 xl:p-6 2xl:p-8 absolute bottom-0 left-0 right-0">
                                 <h5 class="text-base font-semibold mb-2 2xl:text-2xl">Wesley van Genk</h5>
                                 <p class="text-base leading-3 2xl:text-2xl">Bedrijfsleider</p>
                             </div>
                         </div>
                         <div class="relative testimonal-slider__block">
-                            <img src="../images/men1.jpg" alt="" class="w-full">
+                            <img src="@/images/men1.jpg" alt="" class="w-full">
                             <div class="bg-green-color p-4 xl:p-6 2xl:p-8 absolute bottom-0 left-0 right-0">
                                 <h5 class="text-base font-semibold mb-2 2xl:text-2xl">Falco van Opstal</h5>
                                 <p class="text-base leading-3 2xl:text-2xl">Eigenaar</p>
                             </div>
                         </div>
                         <div class="relative testimonal-slider__block">
-                            <img src="../images/men2.jpg" alt="" class="w-full">
+                            <img src="@/images/men2.jpg" alt="" class="w-full">
                             <div class="bg-green-color p-4 xl:p-6 2xl:p-8 absolute bottom-0 left-0 right-0">
                                 <h5 class="text-base font-semibold mb-2 2xl:text-2xl">Wesley van Genk</h5>
                                 <p class="text-base leading-3 2xl:text-2xl">Bedrijfsleider</p>
@@ -88,7 +88,7 @@ export default {
 }
 .testimonal-slider .slick-prev::before {
     content: "";
-    background-image: url(../images/left-arrow.svg);
+    background-image: url(@/images/left-arrow.svg);
     background-size: 13px 25px;
 
     @apply p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] left-0 z-20 md:bottom-[-55px] lg:p-6
@@ -96,7 +96,7 @@ export default {
 
 .testimonal-slider .slick-next::before {
     content: "";
-    background-image: url(../images/right-arrow.svg);
+    background-image: url(@/images/right-arrow.svg);
     background-size: 13px 25px;
 
     @apply p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] left-14 z-30 md:bottom-[-55px] lg:p-6

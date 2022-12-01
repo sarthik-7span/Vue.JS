@@ -11,19 +11,19 @@
                 <ul class="">
                     <li class="list-items">
                         <div class="w-[12px] xsm:w-auto">
-                            <img class="list-check" src="../images/check-icon.svg" alt="">
+                            <img class="list-check" src="@/images/check-icon.svg" alt="">
                         </div>
                         <p class="list-text">100+ trailers, bakwagens en bussen</p>
                     </li>
                     <li class="list-items">
                         <div class="w-[12px] xsm:w-auto">
-                            <img class="list-check" src="../images/check-icon.svg" alt="">
+                            <img class="list-check" src="@/images/check-icon.svg" alt="">
                         </div>
                         <p class="list-text">20+ jaar ervaring</p>
                     </li>
                     <li class="list-items">
                         <div class="w-[12px] xsm:w-auto">
-                            <img class="list-check" src="../images/check-icon.svg" alt="">
+                            <img class="list-check" src="@/images/check-icon.svg" alt="">
                         </div>
                         <p class="list-text">50+ 5-sterren reviews op Google</p>
                     </li>
@@ -45,7 +45,7 @@ export default {
 }
 
 .section-cover {
-    background-image: url(../images/cover-background-2.jpg);
+    background-image: url(@/images/cover-background-2.jpg);
 }
 
 .section-cover::before {
@@ -60,7 +60,7 @@ export default {
 }
 @media only screen and (min-width: 570px) {
     .section-cover {
-            background-image: url(../images/cover-background.jpg);
+            background-image: url(@/images/cover-background.jpg);
         }
 }
 </style>
