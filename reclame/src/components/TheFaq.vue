@@ -64,12 +64,12 @@ export default {
         faqLeft: [
             {
                 id: "1",
-                title: "Eenontwerp dat zorgt voor meer naamsbekendheid",
+                title: "sarthik kevaidyaa voor meer naamsbekendheid",
                 summary: "Met een ontwerp van Reclame Rijden weet je zeker dat jouw trailer opvalt. Met een uniek ontwerp genereer je meer naamsbekendheid en zorgen we dat de trailer past bij de huisstijl.",
             },
             {
                 id: "2",
-                title: "Wat komt er op de trailer te staan? asdfghj",
+                title: "railer te staan? asdfghj",
                 summary: "Met een ontwerp van Reclame Rijden weet je zeker dat jouw trailer opvalt. Met een uniek ontwerp genereer je meer ",
             },
             {
