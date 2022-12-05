@@ -53,7 +53,7 @@ export default {
     }),
     methods: {
         getImgUrl: function (path) {
-            return require('@/images/' + path);
+            return require('../assets/images/' + path);
         }
     }
 }

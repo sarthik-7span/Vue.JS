@@ -3,15 +3,15 @@
         <div class="container-fluid">
             <div class="header flex justify-between items-center">
                 <div class="z-[2] w-[120px] xsm:w-[150px] sm:w-[200px] xl:w-[200px] 2xl:w-[234px] xl:ml-9">
-                    <img src="@/images/Reclame-Logo.png" alt="">
+                    <img src="../assets/images/Reclame-Logo.png" alt="">
                 </div>
                 <div class="lg:hidden">
-                    <img src="@/images/Burger.png" alt="" @click="open = !open">
+                    <img src="../assets/images/Burger.png" alt="" @click="open = !open">
                 </div>
                 <div v-if="open" class="nav-mob fixed inset-0 p-4 pb-9 z-50 flex flex-col h-[100vh] justify-between xl:static xl:bg-none">
                     <div>
                         <div class="">
-                            <img class="ml-auto" src="@/images/Close.png" alt="" @click="open = !open">
+                            <img class="ml-auto" src="../assets/images/Close.png" alt="" @click="open = !open">
                         </div>
                         <ul
                             class="justify-center align-middle text-white-color text-lg pt-16 w-[80%] md:w-[60%] ml-auto text-left">
@@ -28,12 +28,12 @@
                     </div>
                     <div class="flex justify-between items-center pt-4 border-t-2 border-black-color xl:hidden">
                         <div class="w-[120px]">
-                            <a href="javascript:;" class="logo-link"><img src="@/images/Reclame-Logo.png" alt=""></a>
+                            <a href="javascript:;" class="logo-link"><img src="../assets/images/Reclame-Logo.png" alt=""></a>
                         </div>
                         <div class="flex justify-center gap-4 items-center">
-                            <a href="javascript:;" class=""><img src="@/images/facebook-icon.svg" alt=""></a>
-                            <a href="javascript:;" class=""> <img src="@/images/instagram-icon.svg" alt=""></a>
-                            <a href="javascript:;" class=""><img src="@/images/linkdin-icon.svg" alt=""></a>
+                            <a href="javascript:;" class=""><img src="../assets/images/facebook-icon.svg" alt=""></a>
+                            <a href="javascript:;" class=""> <img src="../assets/images/instagram-icon.svg" alt=""></a>
+                            <a href="javascript:;" class=""><img src="../assets/images/linkdin-icon.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -61,10 +61,9 @@ export default {
 </script>
 <style lang="scss">
 .header::before {
-    content: '';
-    background-image: url(@/images/Tringle-x.png);
+    background-image: url("../assets/images/Tringle-x.png");
 
-    @apply absolute top-0 bottom-0 bg-no-repeat bg-center bg-contain w-[150px] z-[1] left-[28%] xsm:left-[34%] sm:left-[27%] xlg:left-[25%] xl:w-[180px] 3xl:left-[26%]
+    @apply content-[''] absolute top-0 bottom-0 bg-no-repeat bg-center bg-contain w-[150px] z-[1] left-[28%] xsm:left-[34%] sm:left-[27%] xlg:left-[25%] xl:w-[180px] 3xl:left-[26%]
 }
 
 .header::after {

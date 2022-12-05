@@ -57,7 +57,7 @@ export default {
     }),
     methods: {
         getImgUrl: function (path) {
-            return require('@/images/' + path);
+            return require('../assets/images/' + path);
         }
     }
 }
@@ -68,10 +68,9 @@ export default {
 }
 
 .specialist::before {
-    content: '';
     border: 30px solid;
     border-color: white transparent transparent transparent;
 
-    @apply absolute top-[-13%] left-0 hidden xlg:block
+    @apply content-[''] absolute top-[-13%] left-0 hidden xlg:block
 }
 </style>

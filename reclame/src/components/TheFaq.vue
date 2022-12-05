@@ -11,8 +11,8 @@
                         <summary class="faq-content list-none lg:pr-16 ">
                             <h6 class="faq-title text-left text-base font-semibold xsm:text-xl xl:text-3xl">{{block.title}}</h6>
                             <span class="faq-icon absolute right-4 bottom-4 w-4 lg:w-9">
-                                <img class="faq-down" src="@/images/down-arrow.svg" alt="">
-                                <img class="faq-up hidden" src="@/images/up-arrow.svg" alt="">
+                                <img class="faq-down" src="../assets/images/down-arrow.svg" alt="">
+                                <img class="faq-up hidden" src="../assets/images/up-arrow.svg" alt="">
                             </span>
                         </summary>
                         <p class="faq-answer mt-3 text-left text-xs xsm:text-lg lg:text-xl">{{block.summary}}
@@ -24,8 +24,8 @@
                         <summary class="faq-content list-none">
                             <h6 class="faq-title text-left text-base font-semibold xsm:text-xl lg:text-3xl">{{block.title}}</h6>
                             <span class="faq-icon absolute right-4 bottom-4 w-4">
-                                <img class="faq-down" src="@/images/down-arrow.svg" alt="">
-                                <img class="faq-up hidden" src="@/images/up-arrow.svg" alt="">
+                                <img class="faq-down" src="../assets/images/down-arrow.svg" alt="">
+                                <img class="faq-up hidden" src="../assets/images/up-arrow.svg" alt="">
                             </span>
                         </summary>
                         <p class="faq-answer mt-3 text-left text-xs xsm:text-lg lg:text-xl">{{ block.summary }}
@@ -37,8 +37,8 @@
                         <summary class="faq-content list-none lg:pr-16 ">
                             <h6 class="faq-title text-left text-base font-semibold xsm:text-xl xl:text-3xl">{{block.title}}</h6>
                             <span class="faq-icon absolute right-4 bottom-4 w-4 lg:w-9">
-                                <img class="faq-down" src="@/images/down-arrow.svg" alt="">
-                                <img class="faq-up hidden" src="@/images/up-arrow.svg" alt="">
+                                <img class="faq-down" src="../assets/images/down-arrow.svg" alt="">
+                                <img class="faq-up hidden" src="../assets/images/up-arrow.svg" alt="">
                             </span>
                         </summary>
                         <p class="faq-answer mt-3 text-left text-xs xsm:text-lg lg:text-xl">{{ block.summary }}

@@ -5,12 +5,12 @@
                 <div class="footer__row flex flex-col lg:flex-row justify-between lg:gap-[190px] xl:gap-[300px]">
                     <div class="footer__logo order-1">
                         <a href="javascript:;" class="max-w-[60%] block mr-auto lg:max-w-full lg:mb-16">
-                            <img class="footer-logo" src="@/images/reclame-logo-white.png" alt="">
+                            <img class="footer-logo" src="../assets/images/reclame-logo-white.png" alt="">
                         </a>
                         <div class="footer-social hidden lg:flex gap-4">
-                            <a href="javascript:;" class="social-link"><img src="@/images/facebook-icon.svg" alt=""></a>
-                            <a href="javascript:;" class="social-link"> <img src="@/images/instagram-icon.svg" alt=""></a>
-                            <a href="javascript:;" class="social-link"><img src="@/images/linkdin-icon.svg" alt=""></a>
+                            <a href="javascript:;" class="social-link"><img src="../assets/images/facebook-icon.svg" alt=""></a>
+                            <a href="javascript:;" class="social-link"> <img src="../assets/images/instagram-icon.svg" alt=""></a>
+                            <a href="javascript:;" class="social-link"><img src="../assets/images/linkdin-icon.svg" alt=""></a>
                         </div>
                     </div>
                     <div class="footer__detail max-w-[80%] mr-auto order-3 mb-12 lg:max-w-full lg:order-2 lg:mb-0">
@@ -29,9 +29,9 @@
                         </ul>
                     </div>
                     <div class="footer-social flex gap-4 order-4 lg:hidden">
-                        <a href="javascript:;" class="social-link"><img src="@/images/facebook-icon.svg" alt=""></a>
-                        <a href="javascript:;" class="social-link"> <img src="@/images/instagram-icon.svg" alt=""></a>
-                        <a href="javascript:;" class="social-link"><img src="@/images/linkdin-icon.svg" alt=""></a>
+                        <a href="javascript:;" class="social-link"><img src="../assets/images/facebook-icon.svg" alt=""></a>
+                        <a href="javascript:;" class="social-link"> <img src="../assets/images/instagram-icon.svg" alt=""></a>
+                        <a href="javascript:;" class="social-link"><img src="../assets/images/linkdin-icon.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="footer__copright flex flex-col-reverse mt-[120px] lg:flex-row justify-between items-start">
@@ -71,7 +71,7 @@ export default {
     }),
     methods: {
         getImgUrl: function (path) {
-            return require('@/images/' + path);
+            return require('../assets/images/' + path);
         }
     }
 }

@@ -4,16 +4,16 @@
             <div class="slider__gallery pb-20 md:pb-32 lg:pb-44">
                 <div class="gallery-slider">
                     <div class="gallery-slider__img">
-                        <img src="@/images/chille-truck.jpg" alt="">
+                        <img src="../assets/images/chille-truck.jpg" alt="">
                     </div>
                     <div class="gallery-slider__img">
-                        <img src="@/images/yellow-truck.jpg" alt="">
+                        <img src="../assets/images/yellow-truck.jpg" alt="">
                     </div>
                     <div class="gallery-slider__img">
-                        <img src="@/images/chille-truck.jpg" alt="">
+                        <img src="../assets/images/chille-truck.jpg" alt="">
                     </div>
                     <div class="gallery-slider__img">
-                        <img src="@/images/yellow-truck.jpg" alt="">
+                        <img src="../assets/images/yellow-truck.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -23,21 +23,21 @@
                 </div>
                 <div class="client-right pl-5 lg:pl-9">
                     <div class="client-slider">
-                        <div class="client-slider__img"><img src="@/images/CLTV-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/DAF-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/Krone-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/Sloot-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/CLTV-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/DAF-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/Krone-icon.png" alt=""></div>
-                        <div class="client-slider__img"><img src="@/images/Sloot-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/CLTV-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/DAF-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/Krone-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/Sloot-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/CLTV-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/DAF-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/Krone-icon.png" alt=""></div>
+                        <div class="client-slider__img"><img src="../assets/images/Sloot-icon.png" alt=""></div>
                     </div>
                 </div>
             </div>
             <div class="slider__review">
                 <div class="review-slider">
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Ons wagenpark is weer verder vernieuwd en dankzij het meedenken
                                 en vakkundige werk is onze huisstijl ook weer goed 
@@ -46,14 +46,14 @@
                         </div>
                     </div>
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Super bedrijf! Snelle en goede service. Een echte aanrader!”</p>
                             <h6 class="review-title font-semibold lg:text-xl">- Casper Collou</h6>
                         </div>
                     </div>
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Fijn bedrijf! Duidelijke communicatie en komen hun afspraken
                                 na.”</p>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Fijn bedrijf! Duidelijke communicatie en komen hun afspraken
                                 na.”</p>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Fijn bedrijf! Duidelijke communicatie en komen hun afspraken
                                 na.”</p>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="review-block">
-                        <img src="@/images/rating-icon.png" alt="" class="rating-img">
+                        <img src="../assets/images/rating-icon.png" alt="" class="rating-img">
                         <div class="text-left bg-gray-color py-9 px-6 h-[275px] 2xl:h-[400px] flex flex-col justify-center">
                             <p class="review-text">“Goede, snelle service met top kwaliteit!”</p>
                             <h6 class="review-title font-semibold lg:text-xl">- Lindsy Aarts</h6>
@@ -105,21 +105,19 @@ export default {
     font-size: 0;
 }
 .gallery-slider .slick-prev::before{
-    content: "";
-    background-image: url(@/images/left-arrow.svg);
+    background-image: url("../assets/images/left-arrow.svg");
     background-size: 13px 25px ;
 
-    @apply p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] md:bottom-[-55px] left-0 z-20 lg:p-6
+    @apply content-[''] p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] md:bottom-[-55px] left-0 z-20 lg:p-6
 }
 .review-title{
     @apply whitespace-nowrap
 }
 .gallery-slider .slick-next::before {
-    content: "";
-    background-image: url(@/images/right-arrow.svg);
+    background-image: url("../assets/images/right-arrow.svg");
     background-size: 13px 25px;
 
-    @apply p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] md:bottom-[-55px] left-14 z-30 lg:p-6
+    @apply content-[''] p-5 bg-green-color flex justify-center items-center bg-no-repeat bg-center absolute bottom-[-35px] md:bottom-[-55px] left-14 z-30 lg:p-6
 }
 .gallery-slider .slick-list.draggable {
     @apply pr-[150px]
