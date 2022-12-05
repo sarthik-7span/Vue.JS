@@ -15,7 +15,7 @@
                     <input type="tel" class="mb-4" placeholder="Telefoonnummer">
                 </div>
                 <textarea name="textarea" id="textarea" class="resize-none" cols="30" rows="10" placeholder="Toelichting"></textarea>
-                <button class="action-btn mt-6 lg:mt-14 2xl:mt-16">VERZENDEN</button>
+                <button class="action-btn mt-6 lg:mt-14 2xl:mt-16">VERZDEN</button>
             </div>
         </div>
     </section>
