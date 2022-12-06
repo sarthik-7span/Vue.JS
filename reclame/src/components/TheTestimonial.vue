@@ -1,5 +1,5 @@
 <template>
-    <section class="section--testimonial pt-10 md:pt-14 lg:pt-24 pb-20 md:pb-24 overflow-hidden relative">
+    <section class="section-testimonial pt-10 md:pt-14 lg:pt-24 pb-20 md:pb-24 overflow-hidden relative">
         <div class="container">
             <div class="testimonial lg:flex gap-8">
                 <div class="testimonial__left 2xl:w-[48%] 2xl:mr-auto">

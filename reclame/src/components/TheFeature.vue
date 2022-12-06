@@ -1,5 +1,5 @@
 <template>
-    <section class="section--feature py-9 relative xl:pt-20 xl:pb-12">
+    <section class="section-feature py-9 relative xl:pt-20 xl:pb-12">
         <div class="container">
             <div class="feature">
                 <TheHeading title="Laat jouw trailer plakken door <span class='text-green'>Reclame Rijden</span>" class="mb-10 xxsm:max-w-[75%] md:mb-14 xlg:max-w-[40%] lg:max-w-[45%] lg:mb-24 xl:mb-28 2xl:max-w-[55%]" />

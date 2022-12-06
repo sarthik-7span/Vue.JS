@@ -1,5 +1,5 @@
 <template>
-    <section class="section--specialist bg-black-color py-9 xlg:py-24 ">
+    <section class="section-specialist bg-black-color py-9 xlg:py-24 ">
         <div class="container">
             <div class="specialist relative">
                 <div class="lg:hidden">

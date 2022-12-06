@@ -1,5 +1,5 @@
 <template>
-    <section class="section--truck bg-black-color py-9 relative lg:py-24">
+    <section class="section-truck bg-black-color py-9 relative lg:py-24">
         <div class="container">
             <div class="truck">
                 <div class="hidden lg:block absolute top-0 left-0 bottom-0 w-[50%]">
