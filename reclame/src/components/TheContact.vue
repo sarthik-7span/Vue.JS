@@ -4,7 +4,7 @@
             <TheHeading title="Jouw trailer laten plakken door <span class='text-green'> Reclame
             Rijden</span>?" class="xsm:max-w-[55%] xlg:max-w-[40%] lg:max-w-[45%] 2xl:max-w-[55%]" />
             <p class="font-semibold text-xs text-left xsm:text-xl lg:text-xl 1.5xl:lg:text-3xl mt-4 mb-6 lg:my-10 2xl:my-16">Laat je gegevens achter en ontvang binnen één werkdag een vrijblijvende
-                prijsopgave. Of neem direct contact op via <a href="javascript:;" class="contact-number"><span class="text-green whitespace-nowrap">+31 (0)76 599 17 09</span></a></p>
+                prijsopgave.irect contact op via <a href="javascript:;" class="contact-number"><span class="text-green whitespace-nowrap">+31 (0)76 599 17 09</span></a></p>
             <div class="contact text-left">
                 <div class="contact__row lg:flex gap-4">
                     <input type="text" class="mb-4" name="name" placeholder="Naam">
